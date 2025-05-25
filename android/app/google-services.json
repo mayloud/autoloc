@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766994643280",
+    "project_id": "location-voiture-83c53",
+    "storage_bucket": "location-voiture-83c53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766994643280:android:b70c1745455b6a9e7e5455",
+        "android_client_info": {
+          "package_name": "com.example.location_voiture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7yd3bJ8wEwehZiGqVERcxzNl0LrvZOp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
