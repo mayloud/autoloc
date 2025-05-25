@@ -1,24 +1,25 @@
-name: location_voiture
-description: "A new Flutter project."
+name: autoloc
+description: Application de location de voitures
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.1
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: 2.24.2
-  firebase_auth: 4.15.3
-  cloud_firestore: 4.13.6
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.8.0
   flutter_map: ^6.1.0
   latlong2: ^0.9.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
