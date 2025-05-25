@@ -55,21 +55,24 @@ class HomeScreen extends StatelessWidget {
           children: [
             // Section de bienvenue
             Container(
-              padding: const EdgeInsets.all(20),
+              height: 80,
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
               color: Colors.blue.shade50,
               child: Row(
                 children: [
                   const Icon(
                     Icons.waving_hand,
-                    size: 40,
+                    size: 32,
                     color: Colors.blue,
                   ),
                   const SizedBox(width: 15),
-                  Text(
-                    'Bienvenue, $userName !',
-                    style: const TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
+                  Expanded(
+                    child: Text(
+                      'Bienvenue, $userName !',
+                      style: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 ],
